@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Suits & Chatters ⚖️🤖
 
-## Getting Started
+> **Practice “OBJECTION!” and sharpen your legal reasoning.** > Suits & Chatters pairs law students and debaters with an AI opposing counsel to practice constitutional law cases, receive targeted rebuttals, and anticipate judicial questioning.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📸 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Moot court and mock trials are vital for law students to build sharp debate skills and legal intuition. **Suits & Chatters** leverages generative AI to simulate the dynamic environment of a court proceeding.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+By taking user inputs for a constitutional case, the app dynamically detects your stance, presents tailored counterarguments from an opposing counsel, and provides potential lines of questioning from a simulated judge—helping users spot weaknesses in their arguments and prepare bulletproof rebuttals.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌟 Key Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Dynamic Opposing Counsel:** Automatically detects your legal stance (prosecution or defense) and generates direct counter-arguments.
+- **Targeted Rebuttals:** Delivers structured counter-points so you can refine and strengthen your core case.
+- **Simulated Judge Panel:** Generates critical questions a judge might ask during oral arguments to help you prepare for the hot seat.
+- **Multi-Role Workspace:** Features dedicated views/pages for each court role (Prosecution, Defense, and Judge) to log inputs and track case progression.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏗️ Tech Stack
 
-## Deploy on Vercel
+- **Frontend & Framework:** [Next.js](https://nextjs.org/) (React), HTML5, CSS3
+- **Backend & Logic:** [Node.js](https://nodejs.org/), JSON API Routes
+- **AI Integration:** OpenAI API
+- **Environment & Tools:** Visual Studio Code, Git/GitHub
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Local Development & Setup
+
+Follow these steps to run Suits & Chatters locally on your machine.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18.0 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- An [OpenAI API Key](https://platform.openai.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/suits-and-chatters.git](https://github.com/your-username/suits-and-chatters.git)
+   cd suits-and-chatters
