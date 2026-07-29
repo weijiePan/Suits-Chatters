@@ -12,7 +12,7 @@ By taking user inputs for a constitutional case, the app dynamically detects you
 
 ---
 ## DEMO
-[![DEMO](https://img.youtube.com/vi/rwfYfpKk7nU.jpg)](https://www.youtube.com/watch?v=rwfYfpKk7nU)
+[![DEMO](https://img.youtube.com/vi/rwfYfpKk7nU.jpg/0.jpg)](https://www.youtube.com/watch?v=rwfYfpKk7nU)
 
 ## Key Features
 
